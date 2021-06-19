@@ -1,10 +1,6 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  flags: {
+    PARALLEL_SOURCING: true
+  },
+  plugins: [], // Your plugins go here
 }
